@@ -10,7 +10,7 @@ function getPosition(){
 
     function showPosition(position) {
 
-        
+        var imei
 
         var gps = position.coords.latitude + ',' + position.coords.longitude
         console.log(position.coords.latitude + ',' + position.coords.longitude);
