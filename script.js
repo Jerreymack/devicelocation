@@ -8,7 +8,7 @@ function getPosition(){
 
     function showPosition(position) {
 
-        var imei = "x"
+        var imei
 
         var gps = position.coords.latitude + ',' + position.coords.longitude
         console.log(position.coords.latitude + ',' + position.coords.longitude);
@@ -19,7 +19,7 @@ $.ajax({
   type: "POST",
   url: "https://a81edo05e7.execute-api.ca-central-1.amazonaws.com/Production/update-gps",
   crossDomain: true,
-  data: JSON.stringify({"IMEI": imei,"GPS": gps}),
+  data: JSON.stringify({"IMEI": window.imei,"GPS": gps}),
   contentType: "application/json",
   dataType: "json",
   success: function(data, status){
