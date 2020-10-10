@@ -1,6 +1,6 @@
 function getPosition(){
         
-        var imeix = imei
+        var imeix = + window.imei
         navigator.geolocation.getCurrentPosition(showPosition);
         }
   
