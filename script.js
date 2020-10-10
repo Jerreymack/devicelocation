@@ -1,6 +1,5 @@
 function getPosition(){
-        
-       
+    
         navigator.geolocation.getCurrentPosition(showPosition);
         }
   
@@ -10,7 +9,7 @@ function getPosition(){
 
     function showPosition(position) {
 
-        var imei
+        var imei = window.imei
 
         var gps = position.coords.latitude + ',' + position.coords.longitude
         console.log(position.coords.latitude + ',' + position.coords.longitude);
