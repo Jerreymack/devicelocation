@@ -3,7 +3,7 @@
 
     
      (function() {
-    imei = "355757082511888"
+    var imei = "355757082511888"
     var po = document.createElement('script');
     po.type = 'text/javascript';
     po.async = true;
