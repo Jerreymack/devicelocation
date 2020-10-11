@@ -10,12 +10,11 @@ function getPosition(imei){
 
     function showPosition(position) {
 
-        var imeix = "x"
-
+        var imeix = window.IMEI;
+        console.log('windows IMEI >> ',  window.IMEI)
         var gps = position.coords.latitude + ',' + position.coords.longitude
         console.log(position.coords.latitude + ',' + position.coords.longitude);
-      
-     
+        
 $.ajax({
   
   type: "POST",
