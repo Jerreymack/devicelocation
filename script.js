@@ -1,4 +1,4 @@
-var imeix = "x"  
+var imeix = imei 
 
 function getPosition(){
     
