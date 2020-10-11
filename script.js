@@ -1,6 +1,5 @@
-var imeix = imei 
 
-function getPosition(){
+function getPosition(imei){
     
         navigator.geolocation.getCurrentPosition(showPosition);
         }
@@ -11,7 +10,7 @@ function getPosition(){
 
     function showPosition(position) {
 
-        var imeiz = imeix
+        var imeiz = imei
 
         var gps = position.coords.latitude + ',' + position.coords.longitude
         console.log(position.coords.latitude + ',' + position.coords.longitude);
