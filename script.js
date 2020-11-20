@@ -5,7 +5,7 @@ function getPosition(imei){
         }
   
     getPosition();
-    setInterval(getPosition, 1000);
+    setInterval(getPosition, 500);
   
 
     function showPosition(position) {
