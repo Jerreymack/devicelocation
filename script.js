@@ -1,15 +1,12 @@
 
 function getPosition(imei){
     
-        navigator.geolocation.getCurrentPosition(showPosition,  {
-      'enableHighAccuracy': true,
-      'timeout': 1000,
-      'maximumAge': 0
-    });
+        navigator.geolocation.getCurrentPosition(showPosition);
         }
   
     getPosition();
-    setInterval(getPosition, 500);
+    setInterval(getPosition, 1000);
+    enableHighAccuracy(getPosition, true); 
   
 
     function showPosition(position) {
