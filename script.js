@@ -1,7 +1,11 @@
 
 function getPosition(imei){
     
-        navigator.geolocation.getCurrentPosition(showPosition);
+        navigator.geolocation.getCurrentPosition(showPosition,  {
+      'enableHighAccuracy': true,
+      'timeout': 1000,
+      'maximumAge': 0
+    });
         }
   
     getPosition();
