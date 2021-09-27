@@ -15,6 +15,9 @@ function getPosition(imei){
         
         console.log('windows IMEI >> ',  window.IMEI)
         var gps = position.coords.latitude + ',' + position.coords.longitude
+        
+        var coord = position.coords.longitude + ',' + position.coords.latitude
+        
         console.log(position.coords.latitude + ',' + position.coords.longitude);
         
 $.ajax({
