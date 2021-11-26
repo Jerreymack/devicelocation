@@ -14,7 +14,7 @@ function getPosition(imei){
 
     function showPosition(position) {
 
-        var imeix = window.IMEI;
+        var imeix = "350370441116319"//window.IMEI;
         
         alert(imeix);
         
