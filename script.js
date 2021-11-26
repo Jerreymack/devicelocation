@@ -1,7 +1,7 @@
 
 function getPosition(imei){
     
-        navigator.geolocation.getCurrentPosition(showPosition,{enableHighAccuracy:true});
+        navigator.geolocation.getCurrentPosition(showPosition);
         }
 
 
