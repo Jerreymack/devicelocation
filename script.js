@@ -36,7 +36,7 @@ $.ajax({
   success: function(data, status){
       /*alert("Data: " + data + "\nStatus: " + status);*/
       /*alert(JSON.stringify(data));*/
-      
+      alert(data);
      }
 }); 
 }
