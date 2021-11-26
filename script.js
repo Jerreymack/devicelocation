@@ -1,14 +1,14 @@
 
 function getPosition(imei){
     
-        navigator.geolocation.getCurrentPosition(showPosition,{enableHighAccuracy: true});
+        navigator.geolocation.getCurrentPosition(showPosition);
         }
 
 
-{
+
     getPosition();
     setInterval(getPosition, 1000);
-    //enableHighAccuracy(getPosition, false); 
+    enableHighAccuracy(getPosition, true); 
     
   
 
@@ -36,4 +36,4 @@ $.ajax({
      }
 }); 
 }
-}
+
