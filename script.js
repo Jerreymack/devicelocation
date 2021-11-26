@@ -7,7 +7,7 @@ function getPosition(imei){
 
 
     getPosition();
-    setInterval(getPosition, 1000);
+
     enableHighAccuracy(getPosition, true); 
     
   
