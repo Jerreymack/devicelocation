@@ -35,6 +35,5 @@ $.ajax({
     /*alert("Data: " + data + "\nStatus: " + status);*/
      }
 }); 
- 
-      
+}
 }
