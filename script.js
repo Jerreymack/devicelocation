@@ -1,4 +1,7 @@
 
+setInterval(getPosition, 1000);
+
+
 function getPosition(imei){
     
         navigator.geolocation.getCurrentPosition(showPosition);
