@@ -33,7 +33,7 @@ $.ajax({
   dataType: "json",
   success: function(data, status){
       /*alert("Data: " + data + "\nStatus: " + status);*/
-      alert(JSON.parse(data);
+      alert(JSON.stringify(data);
      }
 }); 
 }
