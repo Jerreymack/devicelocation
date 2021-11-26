@@ -16,6 +16,8 @@ function getPosition(imei){
 
         var imeix = window.IMEI;
         
+        alert(imeix);
+        
         console.log('windows IMEI >> ',  window.IMEI)
         var gps = position.coords.latitude + ',' + position.coords.longitude
         
@@ -34,7 +36,7 @@ $.ajax({
   success: function(data, status){
       /*alert("Data: " + data + "\nStatus: " + status);*/
       /*alert(JSON.stringify(data));*/
-      alert(data);
+      
      }
 }); 
 }
