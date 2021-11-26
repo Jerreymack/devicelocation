@@ -14,9 +14,9 @@ function getPosition(imei){
 
     function showPosition(position) {
 
-        var imeix = "350370441116319"//window.IMEI;
+        var imeix = window.IMEI; //"350370441116319"
         
-        alert(imeix);
+        //alert(imeix);
         
         console.log('windows IMEI >> ',  window.IMEI)
         var gps = position.coords.latitude + ',' + position.coords.longitude
@@ -36,7 +36,7 @@ $.ajax({
   success: function(data, status){
       /*alert("Data: " + data + "\nStatus: " + status);*/
       /*alert(JSON.stringify(data));*/
-      alert(data);
+      //alert(data);
      }
 }); 
 }
